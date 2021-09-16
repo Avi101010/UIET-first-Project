@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+   
+ <style>
+   .navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top:-6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+} 
+
+#bglist:hover {
+  background-color: rgb(248, 60, 60);
+
+}
+
+ </style>
+</head>
+<body>
+        
+  <nav class="navbar navbar-expand-lg " style="background-color: rgb(36, 34, 34);">
+    <a class="navbar-brand pb-2" href="#"><img class="img-responsive " style="height:70px; width:70px ;" src="logo.jfif" ></a>
+    <a href="index.html" class="text-decoration-none">
+      <ul class="navbar-nav">
+            <li class="nav-item ">
+               <h2 class="font-weight-bold text-light">UIET</h2> <h5 class="font-weight-bold text-light">SANT BABA BHAG SINGH UNIVERSITY</h5>
+            </li>
+      </ul>
+      </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto mr-5 ">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> ABOUT US </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: gray;">
+                
+                  <li><a class="dropdown-item text-light" href="chancellor.html" id="bglist" > Chancellor</a></li>
+                  <li><a class="dropdown-item text-light" href="vc.html" id="bglist" > Vice Chancellor </a></li>
+                  <li><a class="dropdown-item text-light" href="about.html" id="bglist" > About SBBSU </a></li>
+                  <li><a class="dropdown-item text-light" href="#" id="bglist" > Photo Gallery </a></li>
+                  <li><a class="dropdown-item text-light" href="ugc.html" id="bglist" > UGC Approval </a></li>
+                
+            </ul>
+        </li>
+        
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> ACADEMICS </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: gray;">
+                
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-light" href="#" id="bglist">Computer Science Engineering</a>
+                    <ul class="dropdown-menu" style="background-color: gray">
+                        <li class="dropdown-submenu"><a class="dropdown-item text-light" href="cseobj.html" id="bglist">Objective</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item text-light" href="cselab.html" id="bglist">Labs</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item text-light" href="#" id="bglist">Results</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item text-light" href="csefac.html" id="bglist">Faculty</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-light" href="#" id="bglist">Mechanical Engineering</a>
+                    <ul class="dropdown-menu" style="background-color:  gray;">
+                        <li class="dropdown-submenu"><a class="dropdown-item text-light" href="meobj.html" id="bglist">Objectives</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item text-light" href="melab.html" id="bglist">Labs</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item text-light" href="#" id="bglist">Results</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item text-light" href="mechfac.html" id="bglist">Faculty</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-light" href="#" id="bglist">Civil Engineering</a>
+                    <ul class="dropdown-menu text-light" style="background-color:  gray;">
+                        <li class="dropdown-submenu"><a class="dropdown-item text-light" href="civilobj.html" id="bglist">Objectives</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item text-light" href="civillab.html" id="bglist">Labs</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item text-light" href="#" id="bglist">Results</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item text-light" href="civilfac.html" id="bglist">Faculty</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-light" href="#" id="bglist">Electronic & Communication Engineering</a>
+                    <ul class="dropdown-menu" style="background-color: gray">
+                        <li class="dropdown-submenu"><a class="dropdown-item text-light" href="eceobj.html" id="bglist">Objective</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item text-light" href="ecelab.html" id="bglist">Labs</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item text-light" href="#" id="bglist">Results</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item text-light" href="ecefac.html" id="bglist">Faculty</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown-submenu text-light"><a class="dropdown-item dropdown-toggle text-light" href="#" id="bglist">Electrical Engineering</a>
+                    <ul class="dropdown-menu" style="background-color:  gray;">
+                        <li class="dropdown-submenu "><a class="dropdown-item text-light " href="ecobj.html" id="bglist">Objectives</a></li>
+                        <li class="dropdown-submenu "><a class="dropdown-item text-light" href="eclab.html" id="bglist">Labs</a></li>
+                        <li class="dropdown-submenu "><a class="dropdown-item text-light" href="#" id="bglist">Results</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item text-light" href="ecfac.html" id="bglist">Faculty</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> STUDENTS CORNER </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: gray;">
+                
+                  <li><a class="dropdown-item text-light" href="#" id="bglist" > Student Login</a></li>
+                  <li><a class="dropdown-item text-light" href="#" id="bglist" > Transportation Faculty </a></li>
+                  <li><a class="dropdown-item text-light" href="hostal.html" id="bglist" > Hostal facilities </a></li>
+                  <li><a class="dropdown-item text-light" href="#" id="bglist" > NSS/NCC</a></li>              
+            </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> ADMISSIONS</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: gray;">
+                
+                  <li><a class="dropdown-item text-light" href="http://202.164.48.174:396/Regd.aspx" id="bglist" > Apply Online</a></li>
+                  <li><a class="dropdown-item text-light" href="http://202.164.48.174:396/feedeposits.aspx" id="bglist" > Pay Fees Online </a></li>
+                  <li><a class="dropdown-item text-light" href="call.html" id="bglist" > Call For An Admissions Query </a></li>
+                     
+            </ul>
+        </li>
+        
+         
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> CONTACT US </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: gray;">
+                
+                <li><a class="dropdown-item text-light" href="https://www.google.com/maps/place/Sant+Baba+Bhag+Singh+University/@31.4220152,75.8065357,17z/data=!4m12!1m6!3m5!1s0x391afa2a5f5a356f:0x3fe8807f6a27d7b3!2sSant+Baba+Bhag+Singh+University!8m2!3d31.4220106!4d75.8087244!3m4!1s0x391afa2a5f5a356f:0x3fe8807f6a27d7b3!8m2!3d31.4220106!4d75.8087244?hl=en" id="bglist" > Address</a></li>
+                <li><a class="dropdown-item text-light" href="mailto: info@sbbsuniversity.ac.in" id="bglist" > Email </a></li>
+                <li><a class="dropdown-item text-light" href="tel:123-456-7890" id="bglist" > call us </a></li>
+                <li><a class="dropdown-item text-light" href="https://www.facebook.com/SBBSUniversity/" id="bglist" > Facebook </a></li>
+                <li><a class="dropdown-item text-light" href="https://twitter.com/sbbs_u?lang=en" id="bglist" > Twitter </a></li> 
+            </ul>
+        </li>  
+        </ul>
+    </div>
+</nav>
+
+       
+<div class="container-fluid">
+    <div class="row " style="background-color: rgb(221, 48, 17);"  >
+        <div class="col-md-8 mx-auto bg-light shadow mt-4 mb-4 " style="border-radius: 10px;">
+
+            <div class=" mx-auto" style="width: 15rem;">
+               
+                <h3 style="text-align: center; color: red;">Photo gallery</h3>
+
+              </div>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <a href="cse lab/home1.jpg">
+                      <img src="cse lab/home1.jpg" alt="Lights" style="width:100%">
+                      <div class="caption">
+                        <p style="text-align: center;">Lorem ipsum...</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <a href="cse lab/home2.jpg">
+                      <img src="cse lab/home2.jpg" alt="Nature" style="width:100%">
+                      <div class="caption">
+                        <p style="text-align: center;">Lorem ipsum...</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <a href="cse lab/home3.jpg">
+                      <img src="cse lab/home3.jpg" alt="Fjords" style="width:100%">
+                      <div class="caption">
+                        <p style="text-align: center;">Lorem ipsum...</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                      <a href="cse lab/home4.jpg">
+                        <img src="cse lab/home4.jpg" alt="Fjords" style="width:100%">
+                        <div class="caption">
+                          <p style="text-align: center;">Lorem ipsum...</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="thumbnail">
+                      <a href="cse lab/home5.jpg">
+                        <img src="cse lab/home5.jpg" alt="Fjords" style="width:100%">
+                        <div class="caption">
+                          <p style="text-align: center;">Lorem ipsum...</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="thumbnail">
+                      <a href="cse lab/home2.jpg">
+                        <img src="cse lab/home2.jpg" alt="Fjords" style="width:100%">
+                        <div class="caption">
+                          <p style="text-align: center;">Lorem ipsum...</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+              </div>
+              
+              
+        </div>
+    </div>
+</div>
+    
+          <div class="container-fluid " style="background-color: rgb(85, 83, 83);">
+              <div class="row " style="background-color: rgb(85, 83, 83);">
+                  
+                  <div class="container" style="background-color: rgb(85, 83, 83)">
+                      <br>
+                      <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
+                        <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-danger py-1 text-white px-1 news"><span class="d-flex align-items-center">&nbsp; LATEST NEWS</span></div>
+                        <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> 
+                            <a href="#" style="text-decoration: none; color: red;">Admissions open for Engineering classes. </a> 
+                            <span class="dot"></span> <a href="#" style="text-decoration: none;color: red;">Last date for filling the no dues has been postponded to 14-01-21. </a> 
+                            <span class="dot"></span> <a href="#" style="text-decoration: none;color: red;">Regular classes for all semesters has been started all students are requested to join classes following proper rules. </a> </marquee>
+                    </div>
+                  </div>
+                 
+              </div>
+            
+              
+            
+              <div class="row  ml-5" style="background-color: rgb(85, 83, 83);">
+                
+                <div class="col-md-3 bg-white m-5 " style="border-radius: 15px;">
+                  <h5 style="text-align: center; font-weight: bold;">Notices</h5>
+                  <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
+                    <marquee scrollamount="3" class="news-scroll" behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();"> 
+                        <a href="#" style="text-decoration: none;"> <ul> <li style="color: red;" > Admissions open for Engineering classes.</li> </ul> </a> 
+                        <span class="dot"></span> <a href="#" style="text-decoration: none;"> <ul> <li style="color: red;"> Last date for filling the no dues has been postponded to 14-01-21. </li> </ul> </a>
+                        <span class="dot"></span> <a href="#" style="text-decoration: none;"><ul><li style="color: red;"> classes for all semesters has been started all students are requested to join classes following proper rules.</li></ul> </a> </marquee>
+                      </div>
+                </div>
+
+                <div class="col-md-3 bg-white m-5 " style="border-radius: 15px;">
+                  <h5 style="text-align: center; font-weight: bold;">News & Events</h5>
+                  <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
+                    <marquee scrollamount="3" class="news-scroll" behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();"> 
+                        <a href="#" style="text-decoration: none;"> <ul><li style="color: red;"> Blood Donation camp is organized by UIET department on 31-12-20. </li> </ul> </a> 
+                        <span class="dot"></span> <a href="#" style="text-decoration: none;"> <ul><li style="color: red;"> Students protesed against the three months fee charged by university. </li> </ul> </a>
+                        <span class="dot"></span> <a href="#" style="text-decoration: none;"> <ul><li style="color: red;"> New companies caming for recruiting students for jobs. </li> </ul> </a> </marquee>
+                      </div>
+                </div>
+
+                <div class="col-md-3 bg-white m-5 " style="border-radius: 15px;">
+                  <h5 style="text-align: center; font-weight: bold;">Important Links</h5>
+                  <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
+                    <marquee scrollamount="3" class="news-scroll" behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();"> 
+                        <a href="#" style="text-decoration: none;"> <ul> <li style="color: red;"> ALUMNI </li> </ul> </a> 
+                        <span class="dot"></span> <a href="#" style="text-decoration: none;"><ul><li style="color: red;"> University Results </li> </ul> </a> 
+                        <span class="dot"></span> <a href="#" style="text-decoration: none;"> <ul> <li style="color: red;"> Vendor Registration </li> </ul> </a> </marquee>
+                      </div>
+                </div>
+            </div>  
+          </div>
+        
+    <div class="container-fluid" style="background-color: rgb(49, 48, 48);">
+        <div class="row">
+          <div class="col-md-6 ml-5 mt-1">
+            <h5 style="font-weight: bold; color: white;" > &copy; SANT BABA BHAG SINGH UNIVERSITY, JALANDHAR </h5>
+          </div>
+        </div>
+    </div>
+ 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
